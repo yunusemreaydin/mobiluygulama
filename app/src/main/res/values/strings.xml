@@ -2,15 +2,17 @@
     <string name="app_name">KuryeMobil</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
+    <string name="durum">Çevrimiçi</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="aktif_siparis">Aktif Sipariş</string>
+    <string name="atanmamis_siparis">Atanmamış Siparişler</string>
+    <string name="gecmis_siparis">Geçmiş Siparişlerim</string>
+    <string name="teslimedilmemis_siparis">Teslim Edilmemiş Nakitler</string>
+    <string name="profilim">Profilim</string>
+    <string name="avans_talebi">Avans Talebi</string>
+    <string name="iyikotu_kuryeler">En "'Kötü-İyi'" Kuryeler </string>
+    <string name="cikis_yap">Çıkış Yap</string>
 </resources>

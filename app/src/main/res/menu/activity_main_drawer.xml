@@ -3,36 +3,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1"
+        >
+
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
+            android:id="@+id/aktif_siparis"
+            android:title="@string/aktif_siparis" />
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
-        </menu>
-    </item>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2"
+        >
+        <item
+            android:id="@+id/atanmamis_siparis"
+            android:title="@string/atanmamis_siparis" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group3"
+        >
+        <item
+            android:id="@+id/gecmis_siparis"
+            android:title="@string/gecmis_siparis" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group4"
+        >
+        <item
+            android:id="@+id/teslimedilmemis_siparis"
+            android:title="@string/teslimedilmemis_siparis" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group5"
+        >
+        <item
+            android:id="@+id/profilim"
+            android:title="@string/profilim" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group6"
+        >
+        <item
+            android:id="@+id/avans_talebi"
+            android:title="@string/avans_talebi" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group7"
+        >
+        <item
+            android:id="@+id/iyikotu_kuryeler"
+            android:title="@string/iyikotu_kuryeler" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group8"
+        >
+        <item
+            android:id="@+id/cikis_yap"
+            android:title="@string/cikis_yap" />
+    </group>
 
 </menu>
